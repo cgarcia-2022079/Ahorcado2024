@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;   
+}
+
+button{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 5px;
+    transition: transform .8s ease;
+    font-family: consolas;
+    color: white;
+    border: black solid 2px;
+    background-color: gray;
+}
+
+button:hover{
+    border: white solid 1px;
+    color: black;
+    transform: translateY(-5px);
+}
+
+canvas{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(165, 165, 165);
+}
+
+.paint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
